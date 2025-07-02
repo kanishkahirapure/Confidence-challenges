@@ -55,3 +55,5 @@ public class Day15_binarySearch {
         System.out.println("Target found at index: " + index);
     }
 }
+
+//Target found at index: 4

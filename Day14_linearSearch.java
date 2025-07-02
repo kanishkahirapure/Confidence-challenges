@@ -19,3 +19,5 @@ public class Day14_linearSearch {
         }
     }
 }
+
+// Output: Key not found
