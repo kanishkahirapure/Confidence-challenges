@@ -1,4 +1,4 @@
-public class TrappingRainWater {
+public class Day20_TrappingRainWater {
     public static int trap(int[] height) {
         int left = 0, right = height.length - 1;
         int leftMax = 0, rightMax = 0;
