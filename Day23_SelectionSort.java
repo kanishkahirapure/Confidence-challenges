@@ -21,6 +21,6 @@ public class Day23_SelectionSort {
         System.out.println("Sorted array: ");
         for (int num : arr) {
             System.out.print(num + " ");
-        }
+       }
     }
 }
