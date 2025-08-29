@@ -29,3 +29,4 @@ public class Day3{
 
     }
 }
+// output:count :3
