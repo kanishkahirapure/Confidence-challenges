@@ -49,14 +49,14 @@ public class Day8{
                 firstLargest = arr[i];
             }else if (arr[i] > secondLargest && arr[i] != firstLargest) {
                 secondLargest = arr[i];
-        }
+            }
         
-    }
-    System.out.println("first smallest = "+ firstSmallest);
+        }
+        System.out.println("first smallest = "+ firstSmallest);
         System.out.println("second smallest = "+ secondSmallest);
         System.out.println("first largest = "+ firstLargest);
         System.out.println("second largest = "+ secondLargest);
-}
+    }
 }
 
 
@@ -88,7 +88,7 @@ public class Day8{
 //     public static void main(String args[]){
 //         int [] arr = {3, 7, 1, 9,  2};
 //         int target = 7;
-//         int i = 0;
+//         int i = 0;   
 
 //         for(i = 0; i < arr.length; i++){
 //             if (arr[i] == target){

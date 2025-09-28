@@ -25,9 +25,6 @@
 // }
 
 
-
-
-
 // public class Day7{
 //     public static void main(String args[]){
 //         int arr[] = {1, 2, 3, 4, 5};
@@ -91,7 +88,8 @@ public class Day7{
 
         for(int i=0; i<arr.length; i++){
             if(arr[i] == target){
-                count++;
+                count++; 
+                
             }
         }
         System.out.println("The number of times " + target + " appears in the array is: " + count);

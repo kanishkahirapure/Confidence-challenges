@@ -9,26 +9,42 @@
 // }
 
 
-public class Day6 {
-    public static void main(String args[]) {
-        int[] arr = {1, 2, 3, 4, 5};
+// public class Day6 {
+//     public static void main(String args[]) {
+//         int[] arr = {1, 2, 3, 4, 5};
 
-        int i = 0;
-        int j = arr.length - 1;
+//         int i = 0;
+//         int j = arr.length - 1;
 
-        while (i < j) {
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
+//         while (i < j) {
+//             int temp = arr[i];
+//             arr[i] = arr[j];
+//             arr[j] = temp;
 
-            i++;
-            j--;
+//             i++;
+//             j--;
+//         }
+
+//         System.out.print("Reversed array: ");
+//         for (int k = 0; k < arr.length; k++) {
+//             System.out.print(arr[k] + " ");
+//         }
+//     }
+//}
+
+
+
+public class Day6{
+    public static void main(String args[]){
+        int sum=0; 
+        int i;
+        for(i = 1; i<=100; i=+2){
+            // if(i%2 == 0){
+                sum =+ i;
+            // }
         }
 
-        System.out.print("Reversed array: ");
-        for (int k = 0; k < arr.length; k++) {
-            System.out.print(arr[k] + " ");
-        }
+        System.out.println(sum);
+      
     }
 }
-
